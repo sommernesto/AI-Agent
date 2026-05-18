@@ -19,6 +19,8 @@ container level, provisioned on demand, and never share state or credentials.
 
 ## Stack
 
+![Architecture](openclaw_architecture.svg)
+
 | Layer | Tool |
 |---|---|
 | Agent framework | OpenClaw |
@@ -48,4 +50,3 @@ ports, no reverse proxy complexity.
 **Provisioning by script** — new users are onboarded in a single command. No manual
 config editing; the provisioner validates inputs, generates the required files, and
 prints exact next steps.
-![Architecture](architecture.svg)
