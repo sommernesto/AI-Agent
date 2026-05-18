@@ -1,0 +1,17 @@
+{
+  "name": "ai-agent",
+  "version": "1.0.0",
+  "description": "Scalable routing and automation setup with n8n, Docker, and Tailscale.",
+  "main": "router.js",
+  "scripts": {
+    "start": "node router.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true
+}
