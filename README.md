@@ -1,6 +1,6 @@
 # OpenClaw Infrastructure
 
-A self-hosted, multi-user AI agent platform running on an M2 Mac Mini home server.
+A self-hosted, multi-user AI agent platform running on an M4 Mac Mini home server.
 Routes Slack commands to isolated per-user agent instances, each backed by n8n workflows
 and connected to Claude and Gemini for task execution.
 
@@ -27,7 +27,7 @@ container level, provisioned on demand, and never share state or credentials.
 | Routing | Node.js |
 | Containerisation | Docker + Docker Compose |
 | Networking | Tailscale Funnel |
-| Host | Apple Mac Mini M2, macOS |
+| Host | Apple Mac Mini M4, macOS |
 
 ---
 
